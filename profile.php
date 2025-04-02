@@ -1,3 +1,8 @@
+<?php
+$userName = "Carlos Daniel";
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -31,7 +36,9 @@
         <div class="card text-center">
           <img src="./images/profiles/10.jpg" class="card-img-top mx-auto img-thumbnail rounded-circle " alt="...">
           <div class="card-body">
-            <h5 class="card-title">João Franco</h5>
+            <h5 class="card-title">
+              <?php echo $userName; ?>
+            </h5>
             <p class="card-text">joao.franco@gmail.com</p>
           </div>
           <ul class="list-group list-group-flush">
